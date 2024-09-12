@@ -55,3 +55,14 @@ This project uses a [synthetic dataset](https://www.kaggle.com/competitions/play
 ## Want to learn more?
 * [Click here to view the source code](https://github.com/emma-horton/Leveraging-Machine-Learning-to-Predict-Liver-Cirrhosis-Outcomes-from-Clinical-Data/blob/main/notebook_final.ipynb)
 * [Click here to view the full group report](https://github.com/emma-horton/Leveraging-Machine-Learning-to-Predict-Liver-Cirrhosis-Outcomes-from-Clinical-Data/blob/main/final-group-report.pdf)
+
+## Contributors
+
+|Name     |  GitHub   | 
+|---------|-----------------|
+| Brian Arisius          | https://github.com/barisius772        |
+| Samarth Manjunatha Bedre| https://github.com/SamB-12           |
+| Emma Horton            | https://github.com/emma-horton        |
+| James Morrison         | https://github.com/jistovid1          |
+| Pamela Robinson        | https://github.com/probin73           |
+
