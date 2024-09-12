@@ -1,14 +1,18 @@
 # Leveraging Machine Learning to Predict Liver Cirrhosis Outcomes from Clinical Data
-This project leverages machine learning techniques to predict outcomes for liver cirrhosis patients using clinical data. We built predictive models, including Gradient Boosting and Random Forest classifiers, to assess key medical features and provide clinical insights. The models are evaluated using metrics like AUROC, F1-score, and LogLoss. Additionally, methods for handling imbalanced data, such as SMOTE and class weighting, were implemented. Our final models showed promising results in predicting patient outcomes and have potential for real-world clinical application.
+## Overview
+This project aims to leverage machine learning techniques to predict outcomes for patients with liver cirrhosis using clinical data. The key questions addressed by the project are:
+* What are the most critical features in predicting liver cirrhosis outcomes?
+* Can machine learning models accurately predict the probability of different outcomes, such as survival or death, for patients with cirrhosis?
+* How can we handle class imbalance in the dataset, especially the minority class of transplant outcomes?
 
-## Purpose
-This project was developed by a group of five students as part of our coursework for the ‘Knowledge Discovery and Data Mining’ module at the University of St Andrews. The primary aim was to apply machine learning techniques to predict liver cirrhosis outcomes using clinical data. Our goal was to build and evaluate predictive models that not only enhance our technical skills but also provide insights that can potentially aid clinicians in improving patient care and decision-making in real-world medical scenarios.
+## Project Description
+**Motivation** Liver cirrhosis represents a significant global health challenge, often leading to severe complications or death without timely intervention. Predicting patient outcomes accurately can greatly enhance clinical decision-making and improve patient care. This project explores machine learning models to assist in this prediction.
 
-## Aims 
-* To address the challenge of unbalanced data through techniques such as SMOTE or class weighting.
-* To construct multiple machine learning models aimed at predicting multi-class outcomes based on clinical attributes.
-* To evaluate the performance of the models using relevant metrics and analyses.
-* To present findings in a clear and accessible format suitable for a non-technical audience, demonstrating the real-world impact of machine learning in healthcare.
+**Why this project?** Given the progressive nature of liver cirrhosis and the complexity of its clinical manifestations, there is a strong need for predictive tools that can help clinicians anticipate disease outcomes and tailor interventions accordingly. Machine learning, with its ability to handle large, complex datasets, is well suited for this task.
+
+**What problem did it solve?** The project developed predictive models that can assist clinicians by predicting patient outcomes based on clinical features. These models provide actionable insights into which medical markers are significant for predicting cirrhosis outcomes and suggest future improvements for managing liver cirrhosis.
+
+**What did we learn?** The most critical features for predicting liver cirrhosis outcomes are bilirubin and albumin levels. Machine learning models, especially Gradient Boosting and Random Forest, accurately predicted survival, death, and transplant outcomes. To address class imbalance, class weight adjustments outperformed SMOTE, with the Gradient Boosting model using class weights achieving the best performance, yielding a validation log loss of 0.459.
 
 ## Usage 
 1. Install required Python packages:
@@ -36,3 +40,5 @@ This project was developed by a group of five students as part of our coursework
 * **XGBoost**: A powerful gradient boosting algorithm used for classification tasks.
 * **Imbalanced-learn (SMOTE)**: To handle class imbalance through synthetic oversampling of the minority class.
 
+## Data Description
+The dataset used for this project is synthetic, derived from the [Mayo Clinic Liver Cirrhosis Study (1974-84)](https://www.kaggle.com/competitions/playground-series-s3e26/). It includes 7,905 patients with 19 clinical features, such as age, bilirubin, albumin, cholesterol, and liver function tests. The outcome variable had three categories Alive with cirrhosis (C), Alive with liver transplant (CL), Dead (D).
