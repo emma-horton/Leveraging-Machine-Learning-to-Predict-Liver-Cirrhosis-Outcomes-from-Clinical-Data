@@ -41,4 +41,4 @@ This project aims to leverage machine learning techniques to predict outcomes fo
 * **Imbalanced-learn (SMOTE)**: To handle class imbalance through synthetic oversampling of the minority class.
 
 ## Data Description
-The [dataset](https://www.kaggle.com/competitions/playground-series-s3e26/) used for this project is synthetic, derived from the Mayo Clinic Liver Cirrhosis Study (1974-84). It includes 7,905 patients with 19 clinical features, such as age, bilirubin, albumin, cholesterol, and liver function tests. The outcome variable had three categories Alive with cirrhosis (C), Alive with liver transplant (CL), Dead (D).
+This project uses a [synthetic dataset](https://www.kaggle.com/competitions/playground-series-s3e26/) based on the Mayo Clinic Liver Cirrhosis Study (1974-84). It includes 7,905 patients and 19 clinical features, such as age, bilirubin, albumin, cholesterol, and liver function tests. The outcome variable has three categories: Alive with cirrhosis (C), Alive with liver transplant (CL), and Dead (D).
