@@ -42,3 +42,7 @@ This project aims to leverage machine learning techniques to predict outcomes fo
 
 ## Data Description
 This project uses a [synthetic dataset](https://www.kaggle.com/competitions/playground-series-s3e26/) based on the Mayo Clinic Liver Cirrhosis Study (1974-84). It includes 7,905 patients and 19 clinical features, such as age, bilirubin, albumin, cholesterol, and liver function tests. The outcome variable has three categories: Alive with cirrhosis (C), Alive with liver transplant (CL), and Dead (D).
+
+## Want to learn more?
+* [Click here to view the source code](https://github.com/emma-horton/Leveraging-Machine-Learning-to-Predict-Liver-Cirrhosis-Outcomes-from-Clinical-Data/blob/main/notebook_final.ipynb)
+* [Click here to view the full group report](https://github.com/emma-horton/Leveraging-Machine-Learning-to-Predict-Liver-Cirrhosis-Outcomes-from-Clinical-Data/blob/main/final-group-report.pdf)
