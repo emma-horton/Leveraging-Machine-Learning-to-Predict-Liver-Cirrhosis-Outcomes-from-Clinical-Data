@@ -1,3 +1,12 @@
+![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat)
+![pandas Badge](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=fff&style=flat)
+![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=flat)
+![NumPy Badge](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=fff&style=flat)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-013243?logo=Matplotlib&logoColor=fff&style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?logo=Seaborn&logoColor=fff&style=flat)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF9900?logo=xgboost&logoColor=fff&style=flat)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=TensorFlow&logoColor=fff&style=flat)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=fff&style=flat)
 # Leveraging Machine Learning to Predict Liver Cirrhosis Outcomes from Clinical Data
 ## Overview
 This project aims to leverage machine learning techniques to predict outcomes for patients with liver cirrhosis using clinical data. The key questions addressed by the project are:
